@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>Data Access component for Endor platform</Description>
+		<PackageIconUrl>https://i.imgur.com/Wvo5Jjm.jpg</PackageIconUrl>
+		<RepositoryUrl>https://github.com/AlexisKowalczuk/Endor.DataAccess</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/AlexisKowalczuk/Endor.DataAccess</PackageProjectUrl>
+		<PackageTags>Dapper;DataAccess;Endor</PackageTags>
+		<Authors>AKowalczuk</Authors>
+		<Company>AK</Company>
+		<Version>1.0.3</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="1.60.6" />
+		<PackageReference Include="DapperExtensions.DotnetCore" Version="1.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="AutoMapper">
+			<HintPath>..\..\..\..\Users\z0041rxs\.nuget\packages\automapper\8.0.0\lib\netstandard2.0\AutoMapper.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+			<HintPath>..\..\..\..\Users\z0041rxs\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+		</Reference>
+		<Reference Include="Microsoft.Extensions.Logging.Abstractions">
+			<HintPath>..\..\..\..\Users\z0041rxs\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
